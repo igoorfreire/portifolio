@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: #FFFF;
+    scroll-behavior: smooth;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 200vh;
+}
+
+.header-paragraph {
+    display: inline-block;
+    font-size: 70px;
+    color: #ffff;
+    margin-right: 50%;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.header-paragraph::first-letter {
+    color: yellow;
+}
+
+a {
+    margin-right: 70px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.header-button {
+    color: #000000;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+    border: none;
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    line-height: 30px;
+    box-shadow: 1px 1px 20px grey;
+    cursor: pointer;
+    margin-right: 90px;
+
+}
+
+.header-button:hover {
+    opacity: 0.8;
+}
+
+.header-button:active {
+    width: 155px;
+    height: 45px;
+}
+
+.info {
+    display: inline-block;
+    margin: 300px 360px 35vh 50px;
+}
+
+.info-paragraph {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.info-button {
+    background-color: yellow;
+    margin-top: 50px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    width: 160px;
+    height: 50px;
+    box-shadow: 1px 1px 20px grey;
+}
+
+.info-button:hover {
+    opacity: 0.8;
+}
+
+.info-button:active {
+    width: 165px;
+    height: 55px;
+}
+
+.info-img {
+    width: 500px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+#eu {
+    font-size: 100px;
+    text-decoration: underline yellow 3px;
+    font-weight: 700;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+
+.article-img {
+    display: inline-block;
+    width: 500px;
+    margin-left: 50px;
+    box-shadow: 1px 1px 10px yellow;
+    margin-top: 50px;
+}
+
+.about-me {
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+h5 {
+    font-size: 40px;
+    font-weight: 600;
+}
+h4{
+    font-size: 30px;
+    margin-top: 15px
+}
+.article-paragraph{
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.profissional-info{
+    display: inline-block;
+    font-size: 23px;
+}
+ul{
+    list-style-type: none;
+}
+.pessoal-info{
+    display: inline-block;
+    font-size: 23px;
+    margin-right: 70px;
+}
+li{
+    margin-top: 15px;
+    color: yellow;
+}
